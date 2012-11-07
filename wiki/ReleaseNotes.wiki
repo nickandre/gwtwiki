@@ -9,6 +9,8 @@
   * API changes (compared to 3.0.x versions)
 
 == Version 3.0.20-SNAPSHOT ([MavenSupport unreleased]) ==
+  * let formatnum keep the decimal point if given (don't round such numbers like 90.0 down to 90) - r8055
+  * fixed mod function of #expr not truncating its parameters to integers - r8054
   * preserving newlines and whitespace - Issue 122
   * fixed skipping empty implicitely numbered parameters - r7785
   * switch: don't parse RHS value if not needed (improves performance) - r7784
