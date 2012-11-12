@@ -9,6 +9,7 @@
   * API changes (compared to 3.0.x versions)
 
 == Version 3.0.20-SNAPSHOT ([MavenSupport unreleased]) ==
+  * add English namespace strings as global aliases for any locale - Issue 124
   * let formatnum keep the decimal point if given and also keep the number of decimals given (e.g. don't round such numbers like 90.0 down to 90) - r8055, r8059
   * fixed mod function of #expr not truncating its parameters to integers - r8054
   * preserving newlines and whitespace - Issue 122
