@@ -24,6 +24,19 @@
   * Improvements in namespace handling - Issue115
   * Rendering non-existing transclude should display a (red) link - Issue114 
   * Changed user-agent string for querying the Wikipedia API - Issue113
+  * preserving newlines and whitespace - Issue122
+  * don't parse invalid template names as templates - Issue123
+  * avoid generating objects for garbage collections, if not necessary - Issue 125
+  * add English namespace strings as global aliases for any locale - Issue124
+  * added support for several new magic words: TALKPAGE, TALKPAGEE, SUBJECTPAGENAME, SUBJECTPAGENAMEE, ARTICLEPAGENAME, ARTICLEPAGENAMEE, BASEPAGENAME, BASEPAGENAMEE, SUBPAGENAME, SUBPAGENAMEE - r8375, r8376, r8381
+  * added support for "Portal" and "Portal talk" namespaces - r8385
+  * missing ability to get bliki library version - Issue127
+  * parse HTML comments until EOF even if ending tag is not found - r8392
+  * adapted link rendering -> no css class "externallink" anymore - instead use "external free", "external text" and "external autonumber" - r8667
+  * remove any "#label" markers in transcluded template/page names (like MediaWiki) - r8668
+  * don't parse wiki markup in {{{<pre>}}} environments - r8669
+  * incorrect parsing of links if an additional HTML tag is appended - Issue 131
+  * run and pass MediaWiki test cases - Issue129
 
 == Version 3.0.19 ==
   * Fullurl parser function uses the english Wikipedia  - Issue111
