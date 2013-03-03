@@ -11,7 +11,7 @@
   * [http://code.google.com/p/scalaris/ Scalaris] - a distributed key-value store (see the [http://code.google.com/p/scalaris/source/browse/#svn%2Ftrunk%2Fcontrib%2Fwikipedia Wikipedia example])
   * [https://github.com/mdoering/wikipedia-dwca] - a parser for wikipedia species pages using the taxabox template. 
   * [https://github.com/infinity0/proxy-doclet/tree/e5ff33f62166a111b18f765546e1948f7d902c5c]  - Java-doclet Wiki markup Extension
-  * [https://chrome.google.com/webstore/detail/marksy/glncdocnokppgopgpblpeohhhcjggbnl?hl=en - Marksy, a browser extension that tries to convert any flavor of markup]
+  * [https://chrome.google.com/webstore/detail/marksy/glncdocnokppgopgpblpeohhhcjggbnl?hl=en Marksy - a browser extension that tries to convert any flavor of markup]
 
 == Blog posts ==
   * [http://trulymadlywordly.blogspot.mx/2011/03/creating-text-corpus-from-wikipedia.html Creating a text corpus from Wikipedia]
