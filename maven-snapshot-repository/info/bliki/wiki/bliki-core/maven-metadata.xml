@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><metadata>
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
   <groupId>info.bliki.wiki</groupId>
   <artifactId>bliki-core</artifactId>
-  <version>3.0.11-SNAPSHOT</version>
   <versioning>
     <versions>
       <version>3.0.11-SNAPSHOT</version>
@@ -16,6 +16,6 @@
       <version>3.0.20-SNAPSHOT</version>
       <version>3.1.01-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20130125215454</lastUpdated>
+    <lastUpdated>20130910210838</lastUpdated>
   </versioning>
 </metadata>
