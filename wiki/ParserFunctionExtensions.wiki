@@ -20,7 +20,7 @@ import java.util.List;
 public class Arg1 extends AbstractTemplateFunction {
   public final static ITemplateFunction CONST = new Arg1();
 
-  public Formatnum() {
+  public Arg1() {
 
   }
 
@@ -40,7 +40,7 @@ Now you can add the new parser function to the configuration in a static block o
 {{{
 ...
 static {
-  Configuration.DEFAULT_CONFIGURATION.addTemplateFunction("formatnum", Formatnum.CONST); 
+  Configuration.DEFAULT_CONFIGURATION.addTemplateFunction("arg1", Arg1.CONST); 
 }
 ...
 }}}
