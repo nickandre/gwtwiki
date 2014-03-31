@@ -1,6 +1,8 @@
 #summary SVN modules
 #sidebar TableOfContents
 
+Note: >>> *[https://bitbucket.org/axelclk/info.bliki.wiki/ the Java Wikipedia API Sources has moved to GIT on Bitbucket.org]* <<<
+
 = SVN modules =
 These are the [http://code.google.com/p/gwtwiki/source/browse/ active modules in SVN]:
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.wiki svn/trunk/info.bliki.wiki] - the 3.1.x Java Wikipedia API (Bliki engine) parser library for converting Wikipedia syntax to HTML. See MavenSupport to use the library from Maven.
