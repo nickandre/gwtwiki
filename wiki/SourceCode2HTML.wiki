@@ -2,33 +2,6 @@
 #labels Phase-Implementation
 #sidebar TableOfContents
 
-= Sourcecode to syntax highlighted HTML converter =
-A syntax highlighter is available for the languages: ABAP (SAP R/3), C#, Java, JavaScript, PHP, Python, XML(HTML).
 
-A conversion from Java to syntax highlighted HTML looks like this:
-{{{
-import info.bliki.wiki.tags.code.JavaCodeFilter;
-import info.bliki.wiki.tags.code.SourceCodeFormatter;
-
-public class HelloWorld {
-	
-	public static void main(String[] args) {
-		String javaCode = "public class HelloWorld {\n" + 
-				"	public static void main(String[] args) {\n" + 
-				"		System.out.println(\"Hello World\");\n" + 
-				"	}\n" + 
-				"}\n" + 
-				"";
-		SourceCodeFormatter f = new JavaCodeFilter();
-		String result;
-		String coding1 = "<pre class=\"java\" style=\"border: 1px solid #b4d0dc; background-color: #ecf8ff;\">";
-		String coding3 = "</pre>";
-		result = f.filter(javaCode);
-		result = coding1 + result + coding3;
-		System.out.println(result);
-	}
-}
-}}}
-
-You can use the source code to syntax highlighted HTML converter online here:
-  * [http://w-i-k-i.appspot.com/ w-i-k-i.appspot.com]
+This page moved to: 
+  * https://bitbucket.org/axelclk/info.bliki.wiki/wiki/SourceCode2HTML
