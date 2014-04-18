@@ -1,21 +1,5 @@
 #summary How to convert HTML to Mediawiki text
 #sidebar TableOfContents
 
-= How to convert HTML to Mediawiki text =
-A simple html to wiki fragment looks like this:
-{{{
-		HTML2WikiConverter conv = new HTML2WikiConverter();
-		conv.setInputHTML("<b>hello<em>world</em></b>");
-		String result = conv.toWiki(new ToWikipedia());
-		assertEquals(result, "'''hello''world'''''");
-}}}
-
-= Online tool =
-You can use the HTML to Wikipedia text converter online here:
-  * [http://w-i-k-i.appspot.com/ w-i-k-i.appspot.com]
-
-The latest sources for the HTML to Wikipedia online tool are available here:
-  * [http://code.google.com/p/gwtwiki/source/browse/trunk/de.jtidy.gwt SVN - de.jtidy.gwt]
-
-Because there are no specific [https://appengine.google.com/ Google Appengine API calls] used, 
-it should also work with other containers (i.e. Tomcat, Jetty,... in an intranet environment).
+This page moved to: 
+  * https://bitbucket.org/axelclk/info.bliki.wiki/wiki/HTML2Mediawiki
